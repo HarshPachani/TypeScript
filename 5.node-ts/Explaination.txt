@@ -1,0 +1,6 @@
+Go to tsconfig.json and make changes accordingly.
+commands:
+    i. npm init
+    ii. npx tsc --init (if TS is already installed)
+    iii. We need @types/express for recognising types for express, for that we need to install it, but the problem is we can't install it directly, because we are not gonna need that module when app is live(production), so we'll install it as devdependencies.
+        Command: npm i @types/express @types/node --save-dev
